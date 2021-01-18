@@ -11,10 +11,10 @@ Write below code..
   
 ###### Params Description:
 1. datePickerMode : This is UIDatePicker mode. Their are 4 different modes available (You can get full details here: https://developer.apple.com/documentation/uikit/uidatepicker/mode)
-> time
-> date
-> dateAndTime
-> countDownTimer
+- time
+- date
+- dateAndTime
+- countDownTimer
 
 2. selectedDate : Pass Date object you want as default selected.
 
@@ -23,10 +23,10 @@ Write below code..
 4. maxDate : Pass Date object you want as maximum date.
 
 ###### Get Selected Date:
-`DatePickerHelper.shared.openDatePicker(datePickerMode: .date, selectedDate: Date(), minDate: Date(), maxDate: Date()) { (selectedDate) in
+> DatePickerHelper.shared.openDatePicker(datePickerMode: .date, selectedDate: Date(), minDate: Date(), maxDate: Date()) { (selectedDate) in
 
        print(selectedDate)
- }`
+ }
  
  ## Thanks & Enjoy!
  
