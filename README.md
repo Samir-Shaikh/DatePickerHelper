@@ -23,10 +23,12 @@ Write below code..
 4. maxDate : Pass Date object you want as maximum date.
 
 ###### Get Selected Date:
-```DatePickerHelper.shared.openDatePicker(datePickerMode: .date, selectedDate: Date(), minDate: Date(), maxDate: Date()) { (selectedDate) in
+```
+DatePickerHelper.shared.openDatePicker(datePickerMode: .date, selectedDate: Date(), minDate: Date(), maxDate: Date()) { (selectedDate) in
 
        print(selectedDate)
- }```
+ }
+ ```
  
  ## Thanks & Enjoy!
  
